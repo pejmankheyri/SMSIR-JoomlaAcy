@@ -9,7 +9,7 @@
  * @package   Joomla AcySMS
  * @author    Pejman Kheyri <pejmankheyri@gmail.com>
  * @copyright 2021 All rights reserved.
- * @version   v1.0.1
+ * @version   v1.0.0
  * @link      https://github.com/pejmankheyri/SMSIR-JoomlaAcy
  */
 
@@ -22,7 +22,7 @@ defined('_JEXEC') or die('Restricted access');
  * @package   Joomla AcySMS
  * @author    Pejman Kheyri <pejmankheyri@gmail.com>
  * @copyright 2021 All rights reserved.
- * @version   v1.0.1
+ * @version   v1.0.0
  * @link      https://github.com/pejmankheyri/SMSIR-JoomlaAcy
  */
 class ACYSMSGateway_smsir_gateway extends ACYSMSGateway_default_gateway
