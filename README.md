@@ -10,44 +10,44 @@
 </p>
 <div dir="rtl">
 
-# کلاس ارسال پیامک برای کامپوننت acysms
+# SMS sending class for Acysms component
 
- یک کتابخانه که به کمک آن می توانید در کامپوننت Acysms توسط درگاه sms.ir ارسال پیامک انجام دهید.
+ A library with the help of which you can send SMS in the Acysms component through the sms.ir portal.
 
-## نصب
+## Installation
 
-* فایل زیپ `SMSIR-JoomlaAcy` را دانلود کنید.
-* بسته دانلودی را در مسیر `administrator/components/com_acysms/gateway/smsir/` آپلود کنید
-* از طریق کامپوننت AcySMS بخش `مشخصات ارسال کننده` و درگاه پیش فرض ارسال را انتخاب کنید
-* دروازه پیام کوتاه smsir را از لیست انتخاب نمایید
-* [تنظیمات افزونه را در بخش `پارامترها` انجام دهید.](https://github.com/pejmankheyri/SMSIR-JoomlaAcy#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
+* Download the `SMSIR-JoomlaAcy` zip file.
+* Upload the download package to `administrator/components/com_acysms/gateway/smsir/`
+* Through the AcySMS component, select the `Sender Details` section and the default sending port
+* Select smsir short message gateway from the list
+* [Configure the plugin in the `Parameters` section.](https://github.com/pejmankheyri/SMSIR-JoomlaAcy#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
 
-## امکانات
+## Features
 
-* ارسال پیامک به شماره های خاص
-* ارسال پیامک به همه مخاطبین باشگاه مشتریان sms.ir
-* تعیین سطح دسترسی به درگاه ارسال پیامک sms.ir
-* استفاده از تمامی امکانات ارسال پیامک AcySMS
+* Send SMS to specific numbers
+* Send SMS to all sms.ir customer club contacts
+* Determining the level of access to the sms.ir SMS sending portal
+* Use of all AcySMS SMS sending facilities
 
-## تنظیمات
+## Settings
 
-* تنظیمات اصلی افزونه شامل جدول زیر می باشد:
+* The main settings of the plugin include the following table:
 
-    | تنظیمات | توضیح |
+    | Settings | Description |
     | ------ | ------ |
-    | لینک وب سرویس | لینک وب سرویسی که پنل ارسال پیامک از آن استفاده می کند (https://ws.sms.ir/) |
-    | کلید وب سرویس | کلید وب سرویس پنل پیامک sms.ir |
-    | کد امنیتی | کد امنیتی پنل پیامک sms.ir |
-    | شماره ارسال کننده | شماره ارسال کننده پنل پیامک sms.ir |
-    | ارسال از طریق باشگاه مشتریان | باید ماژول باشگاه مشتریان خریداری شود و سپس ارسال از آن طریق انجام می شود |
+    | Web service link | The web service link used by the SMS sending panel (https://ws.sms.ir/) |
+    | Web service key | SMS panel web service key sms.ir |
+    | Security code | SMS panel security code sms.ir |
+    | Sender number | SMS panel sender number sms.ir |
+    | Send through customer club | The customer club module must be purchased and then shipping is done through it |
 
-## کمک به توسعه
+## Development Assistance
 
-از Pull request ها استقبال می کنیم.
+We welcome pull requests.
 
-برای تغییرات عمده ، لطفاً ابتدا یک issue را باز کنید تا در مورد آنچه می خواهید تغییر دهیم و بحث کنیم.
+For major changes, please open an issue first so we can discuss what you want to change.
 
-## لایسنس
+## License
 
 MIT
 
@@ -55,8 +55,8 @@ MIT
 
 <div dir="rtl">
 
-## تصاویر افزونه
+## Plugin Images
 
-* <a href="https://user-images.githubusercontent.com/3329008/113691679-ecd32280-96e1-11eb-9b1c-28b07a60f6a8.png" target="_blank">تصویر 01</a>
+* <a href="https://user-images.githubusercontent.com/3329008/113691679-ecd32280-96e1-11eb-9b1c-28b07a60f6a8.png" target="_blank">Image 01</a>
 
 </div>
